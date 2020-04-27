@@ -99,6 +99,10 @@
     background: var(--primary);
 }
 
+.landing-button {
+    width: 188px;
+}
+
 /*-- -------------------------- -->
 <---           BOXES            -->
 <--- -------------------------- -*/
@@ -252,8 +256,8 @@
         width: 1100px !important;
     }
 
-    .heroText h1 {
-        font-size: 2.6em;
+    #home-h {
+        font-size: 2.7em;
         color: #fff;
         text-align: left;
         font-weight: bold;
@@ -289,6 +293,11 @@
 
     .about-button {
         width: 188px;
+        margin-right: 30px;
+    }
+
+    .landing-button {
+        margin: 0;
         margin-right: 30px;
     }
 
